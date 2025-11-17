@@ -1,4 +1,3 @@
-````markdown
 # Soroban Group Expense Tracker (Grup Gider Takipçisi)
 
 Bu proje, **Soroban SDK** ve **Rust** kullanılarak Stellar Blockchain üzerinde geliştirilmiş merkeziyetsiz bir gider paylaşım uygulamasıdır. 
@@ -9,7 +8,7 @@ Bu proje, **Soroban SDK** ve **Rust** kullanılarak Stellar Blockchain üzerinde
 
 Bu repo, Soroban projeleri için önerilen standart yapıyı kullanır:
 
-```text
+````
 .
 ├── contracts
 │   └── group_expense_tracker
