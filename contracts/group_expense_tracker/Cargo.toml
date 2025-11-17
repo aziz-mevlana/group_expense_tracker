@@ -1,0 +1,17 @@
+[package]
+name = "group_expense_tracker"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+doctest = false
+
+[dependencies]
+# ANA BAĞIMLILIK: Blockchain'e gidecek kodlar (Burada 'testutils' OLMAMALI)
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+# TEST BAĞIMLILIĞI: Sadece bilgisayarınızda test yaparken kullanılır
+soroban-sdk = { workspace = true, features = ["testutils"] }
